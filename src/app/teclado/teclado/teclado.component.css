@@ -1,0 +1,47 @@
+.layout {
+    min-height: 100vh;
+  }
+
+  .logo {
+    margin: 0px 24px 16px 0;
+    float:left;
+    color: #fff;
+    font-size: 25px;
+    /* font-size: large; */
+  }
+
+  area {
+      cursor: pointer;
+  }
+  .centrar{
+      display: flex;
+      justify-content: center;
+  }
+
+  nz-header {
+    position: fixed;
+    width: 100%;
+  }
+
+  [nz-menu] {
+    line-height: 64px;
+  }
+
+  nz-content {
+    padding: 0 50px;
+    margin-top: 64px;
+  }
+
+  nz-breadcrumb {
+    margin: 16px 0;
+  }
+
+  .inner-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 380px;
+  }
+
+  nz-footer {
+    text-align: center;
+  }
